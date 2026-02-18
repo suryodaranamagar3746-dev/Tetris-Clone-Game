@@ -65,16 +65,14 @@ The game utilizes a "Soft Drop" mechanic and specific cooldown timers to ensure 
    ```bash
    git clone [https://github.com/yourusername/pygame-tetris.git](https://github.com/yourusername/pygame-tetris.git)
    cd pygame-tetris
-Install dependencies:
+2.  **Install dependencies:**
+    ```bash
+    pip install pygame
+    ```
 
-Bash
-pip install pygame
-Asset Requirement: Ensure your project directory contains a Shapes/ folder with the following files:
-
-Images: I.png, J.png, L.png, O.png, S.png, T.png, Z.png
-
-Font: Russo_One.ttf
-
+### Running the Game
+```bash
+python main.py
 Running the Game
 Execute the main script to start the application:
 
