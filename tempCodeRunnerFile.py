@@ -1,0 +1,1 @@
+print(self.next_shapes)
